@@ -38,7 +38,7 @@ RUN \
         jq=1.6-2.1 \
         tzdata=2023c-5+deb12u1 \
         xz-utils=5.4.1-0.2 \
-        openjdk-17-jdk-headless=17* \
+        openjdk-17-jre-headless=17* \
     \
     && c_rehash \
     \
