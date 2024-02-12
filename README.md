@@ -8,11 +8,13 @@ You will need the MQTT configuration and a configured broker to use CasCon.  If 
 
 After your MQTT integration is ready, add this repository with the above button, and then go to Settings / Addons and search for and install this addon, Casnic Controller.
 
-After installation go to Settings / Addons / Casnic and Start the Addon, and set it to Start on boot.
+After installation go to Settings / Addons / Casnic and Start the Addon, and set it to Start on boot.  The addon will automatically configure itself to use your MQTT integration.
 
 Once started you can click on Open Web UI, you can login using your Home Assistant account info, and you will be ready to add devices configured via the Casnic Controller mobile application (IOS) <https://apps.apple.com/us/app/cascon/id6458984046> (Android)<https://play.google.com/store/apps/details?id=casnic.control>
 
 Further help is available here - <https://gitlab.com/bitsii/CasCon/-/wikis/Casnic>
+
+Further detail about the addon and how it works is available here - <https://github.com/bitsii/addons-casnic/wiki>
 
 ## Add-ons
 
