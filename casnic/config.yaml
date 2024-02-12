@@ -3,7 +3,7 @@ name: Casnic
 version: "1.35.0"
 slug: casnic
 description: Casnic Controller
-url: https://github.com/hassio-addons/addon-debian-base
+url: https://github.com/bitsii/addons-casnic/tree/main
 #ingress: true
 #ingress_port: 3200
 auth_api: true

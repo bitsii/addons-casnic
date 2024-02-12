@@ -4,6 +4,16 @@ This repository allows you to install the Homeassistant Addon package for the Ca
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with this repository pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbitsii%2Faddons-casnic)
 
+You will need the MQTT configuration and a configured broker to use CasCon.  If you do not yet have MQTT setup for Home Assistant, please first install the Mosquitto addon <https://github.com/home-assistant/addons/blob/master/mosquitto/README.md>.  After installation install the MQTT Integration as well - it will show as an auto-discovered service under Notifications / New Devices Discovered.
+
+After your MQTT integration is ready, add this repository with the above button, and then go to Settings / Addons and search for and install this addon, Casnic Controller.
+
+After installation go to Settings / Addons / Casnic and Start the Addon, and set it to Start on boot.
+
+Once started you can click on Open Web UI, you can login using your Home Assistant account info, and you will be ready to add devices configured via the Casnic Controller mobile application (IOS) <https://apps.apple.com/us/app/cascon/id6458984046> (Android)<https://play.google.com/store/apps/details?id=casnic.control>
+
+Further help is available here - <https://gitlab.com/bitsii/CasCon/-/wikis/Casnic>
+
 ## Add-ons
 
 This repository contains the following add-ons
@@ -16,8 +26,7 @@ This repository contains the following add-ons
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-_Example add-on to use as a blueprint for new add-ons._
-
+<!-- from https://github.com/hassio-addons/addon-debian-base -->
 <!--
 
 Notes to developers after forking or using the github template feature:
