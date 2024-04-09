@@ -1,13 +1,13 @@
 ---
 name: Casnic
-version: "1.37.0"
+version: "1.49.0"
 slug: casnic
 description: Casnic Controller
 url: https://github.com/bitsii/addons-casnic/tree/main
 #ingress: true
 #ingress_port: 3200
-auth_api: true
-webui: http://[HOST]:[PORT:3200]
+#auth_api: true
+webui: http://[HOST]:[PORT:8099]
 init: false
 "services": [
     "mqtt:need"
@@ -19,8 +19,8 @@ arch:
   - armv7
   - i386
 ports:
-  3200/tcp: 3200
+  8099/tcp: 8099
 ports_description:
-  3200/tcp: Used for web interface
+  8099/tcp: Used for web interface
 hassio_api: true
 
