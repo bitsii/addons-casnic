@@ -1,6 +1,6 @@
 ---
 name: Casnic
-version: "1.54.0"
+version: "1.55.0"
 slug: casnic
 description: Casnic Controller
 url: https://github.com/bitsii/addons-casnic/tree/main
@@ -23,4 +23,5 @@ arch:
 #ports_description:
 #  8099/tcp: Used for web interface
 hassio_api: true
+homeassistant_api: true
 
