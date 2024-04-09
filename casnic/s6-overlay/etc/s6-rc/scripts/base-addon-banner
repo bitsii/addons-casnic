@@ -57,7 +57,7 @@ if bashio::supervisor.ping; then
     #rm -rf App/CasCon
     if [ ! -d "App/CasCon" ]; then
       echo "Doing Casnic Setup"
-      curl -L -s "https://github.com/bitsii/beEmb/releases/download/Genned.30/CasCon.1.49.0.tar.gz" \
+      curl -L -s "https://github.com/bitsii/beEmb/releases/download/Genned.30/CasCon.1.50.0.tar.gz" \
         | tar -C /data/apprun/App -zxpf -
     fi
     echo "Starting CasCon"
