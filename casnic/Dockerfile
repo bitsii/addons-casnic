@@ -1,4 +1,4 @@
-ARG BUILD_FROM=debian:12.4-slim
+ARG BUILD_FROM=debian:13.1-slim
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -25,9 +25,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install base system
 ARG BUILD_ARCH=amd64
-ARG BASHIO_VERSION="v0.16.2"
-ARG S6_OVERLAY_VERSION="3.1.6.2"
-ARG TEMPIO_VERSION="2021.09.0"
+ARG BASHIO_VERSION="v0.17.5"
+ARG S6_OVERLAY_VERSION="3.2.1.0"
+ARG TEMPIO_VERSION="2024.11.2"
 RUN \
     apt-get update \
     \
@@ -38,7 +38,7 @@ RUN \
         jq \
         tzdata \
         xz-utils \
-        openjdk-17-jre-headless \
+        openjdk-21-jre-headless \
     \
     && c_rehash \
     \
