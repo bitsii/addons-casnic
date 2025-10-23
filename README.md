@@ -1,7 +1,5 @@
 # Home Assistant add-on repository for Casnic
 
-# DEPRECATION NOTICE - this approach is no longer working or supported.  Check [here](https://gitlab.com/bitsii/CasCon/-/wikis/Working-with-other-home-automation-hubs) for other options.
-
 This repository allows you to install the Homeassistant Addon package for the Casnic Controller: <https://gitlab.com/bitsii/CasCon>
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with this repository pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbitsii%2Faddons-casnic)
@@ -17,6 +15,8 @@ Once started you can click on Open Web UI, you can login using your Home Assista
 Further help is available here - <https://gitlab.com/bitsii/CasCon/-/wikis/Casnic>
 
 Further detail about the addon and how it works is available here - <https://github.com/bitsii/addons-casnic/wiki>
+
+# If you have difficulties with the plugin you could consider using the Integration Hub instead.  Check [here](https://gitlab.com/bitsii/CasCon/-/wikis/Working-with-other-home-automation-hubs) for more information.
 
 ## Add-ons
 
