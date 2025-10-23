@@ -38,7 +38,7 @@ RUN \
         jq \
         tzdata \
         xz-utils \
-        openjdk-17-jre-headless \
+        openjdk-21-jre-headless \
     \
     && c_rehash \
     \
