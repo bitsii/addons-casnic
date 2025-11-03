@@ -16,7 +16,7 @@ Further help is available here - <https://gitlab.com/bitsii/CasCon/-/wikis/Casni
 
 Further detail about the addon and how it works is available here - <https://github.com/bitsii/addons-casnic/wiki>
 
-# If you have difficulties with the plugin you could consider using the Integration Hub instead.  Check [here](https://gitlab.com/bitsii/CasCon/-/wikis/Working-with-other-home-automation-hubs) for more information.
+**If you have difficulties with the plugin** you could consider using the Integration Hub instead.  Check [here](https://gitlab.com/bitsii/CasCon/-/wikis/Working-with-other-home-automation-hubs) for more information.
 
 ## Add-ons
 
